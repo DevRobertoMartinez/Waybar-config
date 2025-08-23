@@ -7,21 +7,20 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/workspaces",
-       
+        "hyprland/workspaces"       
     ],
     "modules-center": [
         "hyrpland/window"
     ],
     "modules-right": [
         "mpd",
-     //   "idle_inhibitor",
+        "idle_inhibitor",
         "pulseaudio",
      //   "power-profiles-daemon",
         "cpu",
         "memory",
      //   "backlight",
-     //   "keyboard-state",
+        "keyboard-state",
      //   "sway/language",
 	"tray",
         "battery#bat2",
@@ -104,9 +103,11 @@
         "spacing": 10
     },
     "clock": {
-        // "timezone": "America/New_York",
+        "timezone": "America/New_York",
+	"format": "{:%r}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "format-alt": "{:%Y-%m-%d}",
+	"interval": 1
     },
     "cpu": {
         "format": "{usage}% ",
@@ -166,7 +167,7 @@
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
-    "pulseaudio": {
+    ":pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "format": "{volume}% {icon} {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
