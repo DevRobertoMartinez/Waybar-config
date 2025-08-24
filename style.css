@@ -57,10 +57,16 @@ button:hover {
 #pulseaudio,
 #clock,
 #battery,
-#memory,
 #cpu {
     color: @teal;
     border-bottom: 2px solid @teal;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#memory{
+    color: @mauve;
+    border-bottom: 2px solid @mauve;
     padding-left: 6px;
     padding-right: 6px;
 }
