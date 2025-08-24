@@ -57,8 +57,14 @@ button:hover {
 #pulseaudio,
 #clock,
 #battery,
-#cpu,
 #memory,
+#cpu {
+    color: @teal;
+    border-bottom: 2px solid @teal;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
 #disk,
 #temperature,
 #backlight,
