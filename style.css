@@ -75,7 +75,9 @@ button:hover {
 #temperature,
 #backlight,
 #wireplumber,
-#tray,
+#tray{
+    border-bottom: 2px solid @blue;
+}
 #network,
 #mode,
 #scratchpad {
