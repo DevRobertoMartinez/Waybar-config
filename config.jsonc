@@ -20,7 +20,7 @@
         "cpu",
         "memory",
      //   "backlight",
-        "keyboard-state",
+     //   "keyboard-state",
      //   "sway/language",
 	"tray",
         "battery#bat2",
